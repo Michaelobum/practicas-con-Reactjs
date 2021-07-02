@@ -12,6 +12,9 @@ class Contador extends Component {
 
     this.setState({counter: this.state.counter -1});
   }
+  add2(){
+    this.setState({counter: this.state.counter +2});
+  }
   add () {
 
     this.setState({counter: this.state.counter +1});
@@ -28,9 +31,12 @@ return (
       <h2>{this.state.counter}</h2>
       </Card.Content>
       <Card.Content extra>
-        <div className='ui two buttons'>
+        <div className='ui two buttons' className="col-lg-14">
           <Button onClick={this.substract.bind(this)}>
             <Icon name = 'minus'/>
+          </Button>
+          <Button onClick={this.add2.bind(this)} >
+          <Icon name = ''/>
           </Button>
           <Button onClick={this.add.bind(this)} >
           <Icon name = 'plus'/>

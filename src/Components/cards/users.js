@@ -30,7 +30,7 @@ const Calculadora = () => {
           </div>)
         }
     return (
-      <div className="col-sm-10">
+      <div className="col-sm-11">
       <div className="row">
       <div className="col-sm-4">
         <div className="card">
