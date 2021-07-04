@@ -6,8 +6,22 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+#pie {
+  float: right;
+}
+.content {
+  margin: 20px;
+}
+.footer {
+  position: sticky;
+  position: -webkit-sticky;
+  bottom: 0;
+  background-color: steelblue;
+  font-size: 12px;
+} 
 h1{
   text-align: center;
+  background-color: rgba(0, 191, 255, 0.226);
 }
 
 code {

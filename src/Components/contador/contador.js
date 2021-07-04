@@ -14,13 +14,13 @@ class Contador extends React.Component {
           <h1>Contador</h1>
           <p className='fs-2'>{this.state.count}</p>
           <button className="btn btn-primary" onClick={() => this.setState({ count: this.state.count - 1 })}>
-            -
+            - 1
           </button>
           <button className="btn btn-dark" onClick={() => this.setState({ count: this.state.count + 2 })}>
             2
           </button>
           <button className="btn btn-primary" onClick={() => this.setState({ count: this.state.count + 1 })}>
-            +
+            + 1
           </button>
         </div>
       );    
@@ -30,13 +30,13 @@ class Contador extends React.Component {
         <div className='position-sticky row-sm-5'>
           
           <button  onClick={() => this.setState({ count: this.state.count - 1 })}>
-            -
+            - 1
           </button>
           <button onClick={() => this.setState({ count: this.state.count + 2 })}>
             2
           </button>
           <button onClick={() => this.setState({ count: this.state.count + 1 })}>
-            +
+            + 1
           </button>
         </div>
       );
